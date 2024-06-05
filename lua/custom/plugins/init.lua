@@ -13,4 +13,5 @@ return {
       require('fzf-lua').setup {}
     end,
   },
+  require('lspconfig').bufls.setup {},
 }
