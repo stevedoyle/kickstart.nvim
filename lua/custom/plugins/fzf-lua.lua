@@ -13,5 +13,5 @@ return {
   vim.keymap.set('n', '<c-g>', "<cmd>lua require('fzf-lua').grep_project()<CR>", {}),
   vim.keymap.set('n', '<F1>', "<cmd>lua require('fzf-lua').help_tags()<CR>", {}),
 
-  require('fzf-lua').utils.info '|<C-\\> buffers|<C-p> files|<C-g> grep|<C-l> live grep|<C-k> builtin|<F1> help|',
+  --  require('fzf-lua').utils.info '|<C-\\> buffers|<C-p> files|<C-g> grep|<C-l> live grep|<C-k> builtin|<F1> help|',
 }
