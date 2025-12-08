@@ -4,5 +4,5 @@
 -- See the kickstart.nvim README for more information
 return {
   'shaunsingh/nord.nvim',
-  require('lspconfig').bufls.setup {},
+  require('lspconfig').buf_ls.setup {},
 }
