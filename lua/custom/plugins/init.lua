@@ -4,5 +4,10 @@
 -- See the kickstart.nvim README for more information
 return {
   'shaunsingh/nord.nvim',
-  require('lspconfig').buf_ls.setup {},
+  {
+    'neovim/nvim-lspconfig',
+    config = function()
+      vim.lsp.config('buf_ls', {})
+    end,
+  },
 }
