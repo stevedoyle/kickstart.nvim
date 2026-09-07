@@ -447,10 +447,13 @@ do
     },
   }
 
+  vim.pack.add { 'https://github.com/kepano/flexoki-neovim' }
+
   -- Load the colorscheme here.
   -- Like many other themes, this one has different styles, and you could load
-  -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
-  vim.cmd.colorscheme 'default'
+  -- any other, such as 'tokyonight-storm', 'tokyonight-moon', 'tokyonight-day',
+  -- or 'flexoki-light'.
+  vim.cmd.colorscheme 'flexoki-dark'
 
   -- Highlight todo, notes, etc in comments
   vim.pack.add { gh 'folke/todo-comments.nvim' }
